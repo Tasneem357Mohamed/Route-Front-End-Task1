@@ -1,0 +1,230 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(247, 231, 232);
+}
+
+div.header , div.about-me , div.my-skills , div.my-experience , div.contact , div.footer
+{
+    margin:50px auto;
+    width:80%;
+    border-radius: 15px;
+    padding: 20px 20px;
+}
+div.header
+{
+    background-color: pink;
+    text-align: center;
+}
+h1.developer-name
+{
+    color:rgb(99, 47, 56);
+}
+p.developer-job
+{
+    color:rgb(155, 77, 90);
+    margin-block:25px;
+    font-size:19px;
+}
+a.anchor-item
+{
+    margin-left: 20px;
+    font-size:19px;
+    background-color: rgba(249, 219, 224, 0.43);
+    color:rgb(233, 107, 128);
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px rgb(238, 141, 157);
+}
+
+
+h2.title
+{
+    color:rgb(99, 47, 56);
+}
+div.line
+{
+    height: 1px;
+    background-color:rgb(244, 221, 225);
+    margin-block:20px
+}
+div.float-fix
+{
+    clear: left;
+}
+
+
+
+div.about-me , div.my-skills , div.my-experience
+{
+    background-color: white;
+    border:2px solid rgb(245, 229, 232);
+}
+div.about-me-content , div.skills-container , div.experience-content ,div.contact-content
+{
+    margin-bottom: 30px;
+}
+img.developer-image
+{
+    width: 120px;
+    height: 120px;
+    margin-right: 45px;
+    border-radius: 50%;
+    border: 2px solid rgb(245, 229, 232);
+    float:left;
+    box-shadow: 0px 0px 15px rgb(238, 141, 157);
+}
+p.about-description
+{
+    font-size: 19px;
+    margin-bottom: 10px;
+    color:rgb(200, 100, 116);
+}
+span.about-description-job
+{
+    color:rgb(99, 47, 56);
+}
+p.about-description-complete
+{
+    font-size: 19px;
+    margin-bottom: 30px;
+    color:rgb(200, 100, 116);
+}
+a.github-button
+{
+    background-color: pink;
+    color:rgb(99, 47, 56);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+
+p.skills-description
+{
+    font-size: 19px;
+    color:rgb(200, 100, 116);
+    margin-bottom: 30px;
+}
+
+div.skills-item
+{
+    background-color: rgb(255, 247, 248);
+    width: 18.75%;
+    padding: 20px 20px;
+    border-radius: 12px;
+    margin-right: 20px;
+    float: left;
+    box-shadow: 0px 0px 5px rgb(238, 141, 157);
+}
+h3.skill-name
+{
+    color:rgb(99, 47, 56);
+    margin-bottom: 20px;
+}
+p.skill-description
+{
+    font-size: 19px;
+    color:rgb(200, 100, 116);
+}
+
+
+
+
+
+
+div.experience-item
+{
+    background-color: rgb(255, 247, 248);
+    padding: 20px 20px;
+    border-radius: 12px;
+    border-width: 2px 2px 2px 4px;
+    border-color:rgb(245, 229, 232) rgb(245, 229, 232) rgb(245, 229, 232) rgb(200, 100, 116);
+    border-style: solid solid;
+    margin-bottom: 20px;
+}
+div.experience-header
+{
+    margin-bottom: 20px;
+}
+div.experience-image-parent
+{
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px 7px;
+    float:left;
+    border:2px solid rgb(245, 229, 232);
+    background-color: white;
+    margin-right: 30px;
+}
+img.experience-image
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin:0 auto;
+}
+h3.experience-name
+{
+    color:rgb(99, 47, 56);
+}
+p.experience-organization
+{
+    font-size: 17px;
+    color:rgb(155, 77, 90);
+    margin-block: 17px;
+}
+p.experience-date
+{
+    font-size: 17px;
+    color:rgb(127, 108, 111);
+}
+p.experience-description
+{
+    font-size: 19px;
+    color:rgb(155, 77, 90);
+    margin-bottom: 10px;
+}
+
+
+
+div.contact
+{
+    background-color: pink;
+}
+p.contact-description
+{
+    font-size: 19px;
+    color:rgb(155, 77, 90);
+    margin-bottom: 35px;
+}
+a.contact-method
+{
+    margin-right: 20px;
+    font-size:19px;
+    background-color: rgba(249, 219, 224, 0.43);
+    color:rgb(233, 107, 128);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px rgb(238, 141, 157);
+}
+
+div.footer
+{
+    background-color: rgb(248, 138, 157);
+    padding: 50px 20px;
+    text-align: center;
+    color:white;
+    font-size: 19px;
+}
+span.footer-text-colored
+{
+    color:rgb(99, 47, 56);
+}
